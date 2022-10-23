@@ -7,7 +7,7 @@ class MenuNavbar{
 
         this.handleClick = this.handleClick.bind(this);
     }
-
+ 
     animateLinks() {
         this.Navlinks.forEach((link) => {
             link.style.animation
@@ -34,7 +34,7 @@ class MenuNavbar{
 }
 const menuNavbar = new MenuNavbar(
     ".menu",
-    ".nav-list",
+    ".nav-list", 
     ".nav-list li",
 );
 menuNavbar.init();
