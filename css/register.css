@@ -36,7 +36,7 @@ input:focus {
     width: 50%;
 }
 
-#banner-layer {
+#banner-layer { 
     height: 100%;
     padding: 2rem;
     display: flex;

@@ -7,7 +7,7 @@ class MenuNavbar{
 
         this.handleClick = this.handleClick.bind(this);
     }
-
+ 
     animateLinks() {
         this.Navlinks.forEach((link) => {
             link.style.animation
