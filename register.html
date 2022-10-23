@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/register.css">
+    <script src="./js/scripts.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <title>Resgiter</title>
+</head>
+
+<body>
+    <div id="register-container">
+        <div id="register-banner">
+            <div id="banner-layer">
+                <h1>Resgiter <br> Now</h1>
+            </div>
+        </div>
+        <form id="register-form">
+            <h2>Signing up</h2>
+            <p id="text">Is quick and easy</p>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" pattern="[a-z]*" placeholder="Write your name">
+            </div>
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input type="text" type="email" id="email" placeholder="Your e-mail">
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" type="password" id="password" placeholder="Password">
+            </div>
+            <p>Want help creating your secure password? <span id="generate-password"><br>Click here.</span></p>
+            <div id="generated-password">
+                <p>Here is your password:</p>
+                <h4></h4>
+            </div>
+            <div class="form-control">
+                <label for="confirmpassword">Confirm your password</label>
+                <input type="password" type="confirmpassword" id="confirmpassword" placeholder="Enter the password again">
+            </div>
+            <input type="submit" value="Register">
+            <a id="button-return" href="index.html">Return</a>
+        </form>
+    </div>
+</body>
+
+</html>
