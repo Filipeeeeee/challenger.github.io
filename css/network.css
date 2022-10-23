@@ -125,7 +125,7 @@ body {
     height: auto;
     display: flex;
     justify-content: center;
-    background-image: url("/image/Colmeia\ Tech.PNG");
+    background-image: url("../image/Colmeia\ Tech.PNG");
     background-repeat: repeat;
     background-size: 50%;
 }

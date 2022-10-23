@@ -30,7 +30,7 @@ input:focus {
 }
 
 #register-banner {
-    background: url("/image/firmware-animate.svg");
+    background: url("../image/firmware-animate.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     width: 50%;
