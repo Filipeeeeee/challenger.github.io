@@ -212,7 +212,7 @@ h2 {
     }
 
     .nav-list.active {
-        transform: translateX(0);
+        transform: translateX(0); 
     }
 
     .menu {
