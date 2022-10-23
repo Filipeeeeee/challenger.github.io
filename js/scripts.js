@@ -9,7 +9,7 @@ const getLetterLowCase = () => {
 const getLetterUpperCase = () => {
     return (String.fromCharCode(Math.floor(Math.random() * 26) + 67));
 }; 
- 
+
 const getNumber = () => {
     return Math.floor(Math.random() * 10).toString();
 };
@@ -52,5 +52,5 @@ generatePassordButton.addEventListener("click", () => {
         getLetterUpperCase, 
         getNumber,
         getSymbol
-    );
+    ); 
 });
