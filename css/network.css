@@ -43,12 +43,12 @@ body {
     margin-left: 32px;
 }
 
-.nav-list .link{
+.nav-list .link {
     color: #fff;
     text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
     background: rgba(0, 0, 0, 0.3);
     color: #7a0a7a;
     border: 1px;
@@ -198,7 +198,7 @@ h2 {
         left: 0;
         width: 20vw;
         height: 88vh;
-        background: linear-gradient(0deg, rgba(122,10,122,1) 0%, rgba(103,75,175,1) 100%);
+        background: linear-gradient(0deg, rgba(122, 10, 122, 1) 0%, rgba(103, 75, 175, 1) 100%);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -215,17 +215,18 @@ h2 {
         transform: translateX(0);
     }
 
-    .menu{
+    .menu {
         display: block;
     }
 }
 
-@keyframes navLinkFade{
-    from{
+@keyframes navLinkFade {
+    from {
         opacity: 0;
         transform: translateX(-50px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateX(0);
     }
