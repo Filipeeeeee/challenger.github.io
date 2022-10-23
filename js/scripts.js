@@ -52,5 +52,5 @@ generatePassordButton.addEventListener("click", () => {
         getLetterUpperCase, 
         getNumber,
         getSymbol
-    );
+    ); 
 });
