@@ -34,7 +34,7 @@ class MenuNavbar{
 }
 const menuNavbar = new MenuNavbar(
     ".menu",
-    ".nav-list",
+    ".nav-list", 
     ".nav-list li",
 );
 menuNavbar.init();
